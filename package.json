@@ -9,8 +9,12 @@
     "test": "ng test",
     "lint:js": "ng lint",
     "lint:prettier": "prettier --check . --ignore-path .gitignore",
-    "lintfix": "prettier --write --list-different . --ignore-path .gitignore && yarn lint:js --fix",
-    "lint": "yarn lint:prettier && yarn lint:js",
+    "lint:style": "stylelint **/*.css",
+    "lintfix:js": "ng lint --fix",
+    "lintfix:prettier": "prettier --write --list-different . --ignore-path .gitignore",
+    "lintfix:style": "yarn lint:style --fix",
+    "lintfix": "yarn lintfix:js && yarn lintfix:prettier && yarn lintfix:style",
+    "lint": "yarn lint:prettier && yarn lint:js && yarn lint:style",
     "prepare": "husky install",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "yarn docs:json && start-storybook -p 6006",
@@ -64,6 +68,9 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "prettier": "2.5.1",
+    "stylelint": "^14.5.3",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
     "typescript": "~4.4.3"
   }
 }
