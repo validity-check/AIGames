@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint:js": "ng lint",
     "lint:prettier": "prettier --check . --ignore-path .gitignore",
-    "lint:style": "stylelint **/*.css",
+    "lint:style": "stylelint **/*.css --ignore-path .gitignore",
     "lintfix:js": "ng lint --fix",
     "lintfix:prettier": "prettier --write --list-different . --ignore-path .gitignore",
     "lintfix:style": "yarn lint:style --fix",
