@@ -22,3 +22,6 @@ ci:
 
     - name: Install dependencies
       run: yarn
+
+    - name: Lint project
+      run: yarn lint
