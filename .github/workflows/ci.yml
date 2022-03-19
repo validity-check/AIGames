@@ -30,4 +30,4 @@ jobs:
         run: yarn build:ssr
 
       - name: Test project
-        run: yarn test
+        run: yarn test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
