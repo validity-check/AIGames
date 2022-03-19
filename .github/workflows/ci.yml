@@ -25,3 +25,6 @@ ci:
 
     - name: Lint project
       run: yarn lint
+
+    - name: Build project
+      run: yarn build:ssr
