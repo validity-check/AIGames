@@ -28,3 +28,6 @@ ci:
 
     - name: Build project
       run: yarn build:ssr
+
+    - name: Test project
+      run: yarn test
