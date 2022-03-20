@@ -14,10 +14,9 @@ Create a strong, maintainable project structure and a tech stack to complete the
 
 ### In progress
 
-- [ ] Add a Todo.md
-
 ### Done
 
+- [x] Add a Todo.md
 - [x] Add CI
 - [x] Add NGRX State Management
 - [x] Add NestJS for backend with Angular Universal
