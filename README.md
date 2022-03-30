@@ -5,5 +5,6 @@
 ## Built using
 
 - Angular
+- Angular Material
 - NestJS
 - Typescript
