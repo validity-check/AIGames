@@ -10,3 +10,53 @@ Contains a starting point for a larger project with the potential to have severa
 [![Continuous Integration Status](https://github.com/validity-check/AIGames/actions/workflows/ci.yml/badge.svg)](https://github.com/validity-check/AIGames/actions/workflows/ci.yml)
 
 ---
+
+## Reproduce Locally
+
+This section looks at reproduction of the project rather than contribution.
+
+### Prerequisites
+
+The only prerequisites (to reproduce the project) are:
+
+- [NodeJS](https://nodejs.org/en/)
+  - I made the project using v14.18.1, though I expect LTS to also work.
+- [Yarn](https://yarnpkg.com/)
+  - I've had Yarn for quite a long time, and it only recently occurred to me that my version of Yarn is very old.
+  - At this point, however, I don't want to risk breaking the project with a newer version.
+  - I tested it with Yarn version 1.22.17
+  - This would be installed using `npm i -g yarn@1.22.17`
+
+### Cloning & Installing Dependencies
+
+To start, clone the project.
+
+```bash
+git clone https://github.com/validity-check/AIGames.git
+```
+
+Then, move into the project directory.
+
+```bash
+cd AIGames
+```
+
+Install the required dependencies.
+
+```bash
+yarn
+```
+
+### Development Server
+
+Start the NestJS development server.
+
+```bash
+yarn dev:ssr
+```
+
+Or run Storybook and see its components.
+
+```bash
+yarn storybook
+```
