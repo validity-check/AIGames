@@ -40,4 +40,4 @@ Create a strong, maintainable project structure and a tech stack to complete the
 
 ### Done
 
-- [ ] Add a Header Component
+- [x] Add a Header Component
