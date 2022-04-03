@@ -10,12 +10,12 @@ Create a strong, maintainable project structure and a tech stack to complete the
 
 - [ ] Add a License
 - [ ] Add a Contributing.md file
-- [ ] Add a readme.md
 
 ### In progress
 
 ### Done
 
+- [x] Add a readme.md
 - [x] Add a Todo.md
 - [x] Add CI
 - [x] Add NGRX State Management
@@ -31,3 +31,13 @@ Create a strong, maintainable project structure and a tech stack to complete the
 - [x] Add ESLint
 - [x] Add Husky (Git Hooks)
 - [x] Add Storybook
+
+## Build Storybook UI Components
+
+### To do
+
+### In progress
+
+### Done
+
+-[ ] Add a Header Component
